@@ -1,30 +1,49 @@
-# Gebruiksaanwijzing
+**Opladen / Vervangen van Batterijen**  
+De twee 18650 Li-ion batterijen vereisen een speciale oplader. Gebruik nooit een oplader die hier niet specifiek voor bedoeld is, omdat dit ernstige schade kan veroorzaken. De batterijhouder wordt vastgehouden door elastiekjes. Maak deze voorzichtig los om de batterijhouder van onder de printplaat te verwijderen. Haal vervolgens de batterijen uit de houder en plaats ze in de oplader. Let goed op de juiste polariteit bij het plaatsen van de batterijen, zowel in de oplader als in de batterijhouder. Om de opgeladen batterijen terug te plaatsen, voert u de stappen in omgekeerde volgorde uit.  
 
-### opladen / vervangen batterijen
-uitleg over het opladen of vervangen van de batterijen
+---
 
-### draadloze communicatie
-#### verbinding maken
-uitleg over het verbinden van de robot met laptop / smartphone
+**Draadloze Communicatie**  
 
-#### commando's
-debug [on/off]  
-start  
-stop  
-set cycle [µs]  
-set power [0..255]  
-set diff [0..1]  
-set kp [0..]  
-set ki [0..]  
-set kd [0..]  
-calibrate black  
-calibrate white  
+**Verbinding maken**  
+De auto is uitgerust met een Bluetooth-module voor draadloze communicatie. Let op: deze module is niet compatibel met Apple-apparaten, gebruik dus een Android-toestel. Installeer de app *Serial Bluetooth Terminal* om commando's naar de auto te sturen. Verbind eerst via de Bluetooth-instellingen van uw apparaat met de module en selecteer deze vervolgens in de app. Daarna is de draadloze communicatie klaar voor gebruik.  
 
-### kalibratie
-uitleg kalibratie  
+---
 
-### settings
-De robot rijdt stabiel met volgende parameters:  
+**Commando's**  
 
-### start/stop button
-uitleg locatie + werking start/stop button
+- **debug [on/off]**: Toont de ingestelde parameters.  
+- **run**: Start de auto (rijden begint).  
+- **stop**: Stopt de auto.  
+- **set cycle [µs]**: Stelt de maximale cyclusduur in (ongeveer dubbel de berekeningstijd die bij *debug* wordt weergegeven).  
+- **set power [0..255]**: Stelt het motorvermogen in. Zet dit niet zomaar op het maximum; de auto zal anders alleen wheelies maken.  
+- **set diff [0..1]**: Stelt het snelheidsverschil in tussen rechte stukken en bochten. Hoe hoger de waarde, hoe minder de auto vertraagt in bochten.  
+- **set kp [0..]**: Bepaalt hoe agressief de auto instuurt. Bij een te hoge waarde schokt de auto heen en weer over de lijn.  
+- **set ki [0..]**: Vergroot de stuurcorrectie naarmate de bocht langer duurt.  
+- **set kd [0..]**: Corrigeert de fout van *kp*. Hoe groter de fout, hoe sterker de correctie.  
+- **calibrate black**: Uitvoeren terwijl de sensor op een zwart oppervlak staat, zodat de auto zwart kan herkennen.  
+- **calibrate white**: Uitvoeren terwijl de sensor op een wit oppervlak staat, zodat de auto wit kan herkennen.  
+
+---
+
+**Kalibratie**  
+Kalibratie is vereist voordat de auto begint te rijden en moet worden uitgevoerd op hetzelfde type oppervlak waarop de auto zal rijden. Zorg dat de juiste kleur wordt gebruikt (niet een kleur die er slechts op lijkt).  
+
+Plaats de auto op het juiste oppervlak en stuur vervolgens de commando's *calibrate black* en *calibrate white* zoals hierboven uitgelegd.  
+
+---
+
+**Instellingen**  
+Voor stabiel rijden worden de volgende parameters aanbevolen:  
+
+- **Cycle time**: 3000  
+- **Power**: 72  
+- **Diff**: 0.74  
+- **Kp**: 20  
+- **Ki**: 0  
+- **Kd**: 0.90  
+
+---
+
+**Start/Stop-knop**  
+Schakel de batterijspanning in via de schakelaar aan de voorkant van de batterijhouder. Druk vervolgens op de startknop, die zich aan de rechterkant in het midden van de printplaat bevindt, om de auto te laten rijden. Druk tijdens het rijden opnieuw op dezelfde knop om de auto te stoppen.  
