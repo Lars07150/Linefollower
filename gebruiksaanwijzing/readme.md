@@ -1,5 +1,5 @@
 **Opladen / Vervangen van Batterijen**  
-De twee 18650 Li-ion batterijen vereisen een speciale oplader. Gebruik nooit een oplader die hier niet specifiek voor bedoeld is, omdat dit ernstige schade kan veroorzaken. De batterijhouder wordt vastgehouden door elastiekjes. Maak deze voorzichtig los om de batterijhouder van onder de printplaat te verwijderen. Haal vervolgens de batterijen uit de houder en plaats ze in de oplader. Let goed op de juiste polariteit bij het plaatsen van de batterijen, zowel in de oplader als in de batterijhouder. Om de opgeladen batterijen terug te plaatsen, voert u de stappen in omgekeerde volgorde uit.  
+De LIPO 2S batterijen vereisen een speciale oplader. Gebruik nooit een oplader die hier niet specifiek voor bedoeld is, omdat dit ernstige schade kan veroorzaken.  . Let goed op de juiste polariteit bij het plaatsen van de batterijen,in de oplader.  
 
 ---
 
