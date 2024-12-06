@@ -1,0 +1,6 @@
+Eigenschappen:
+- Bedrijfsspanning: 3V tot 6V
+- RPM: 200 bij 4.5V
+- 170mA bij 4.5V
+- max koppel: 800gf cm min
+- as aan beide zijden
