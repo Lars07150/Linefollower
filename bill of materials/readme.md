@@ -15,4 +15,4 @@
 |        10|    Chassis|   3D-geprint         |  Nieuw         |          0    |    1  |  0       |
 |        11|    Knop|         Drukknop   |      Nieuw     |       € 0.10      |     1 |        €0.1 |
 |        12|   Volgwiel |     Volgwiel       |Nieuw           |      €0.5        |  1    | €0.5        |
-|       13| Breadbord| Breadbord klein | €5 | 1  |€5  | 
+|       13| Breadbord| Breadbord klein | Nieuw    |   €5 | 1  |€5  | 
